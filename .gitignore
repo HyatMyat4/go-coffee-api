@@ -1,0 +1,65 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Temporary files
+*.tmp
+*.log
+
+# Build directories
+_build/
+dist/
+
+# Vendor directory
+vendor/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+bin/
+pkg/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# macOS files
+.DS_Store
+
+# Log files
+*.log
+
+# Go module files
+go.sum
+
+# Local development configuration
+.env
+
+# Test binary
+*_test
+
+# Coverage reports
+coverage.txt
+
+# Profiling data
+*.prof
+
+# Debugging data
+debug/
+
+# CGo generated files
+_cgo_*
+
+# Go plugin files
+*.so
