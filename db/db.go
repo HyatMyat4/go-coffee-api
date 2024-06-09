@@ -51,3 +51,12 @@ func testDb(db *sql.DB) error {
 	fmt.Println("*** Pinged db successfully! ***")
 	return nil
 }
+
+// {
+//   "name" : "latte",
+//   "roast": "Medium",
+//    "image": "https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=",
+//    "region" : "Japn",
+//    "price": 30,
+//    "grind_unit": 5
+// }
